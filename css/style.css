@@ -1,0 +1,162 @@
+html {
+      scroll-behavior: smooth;
+}
+
+.main-wrapper {
+      min-height: 100vh;
+}
+
+.main-wrapper,
+.Testimonials,
+.Touch {
+      background-color: #080808;
+}
+
+
+.navbar {
+      background-color: #1B1B1B;
+      max-width: 900px;
+
+}
+
+.navbar .navbar-nav .nav-link {
+      color: #9C9C9C;
+      margin-right: 20px;
+}
+
+.icons i {
+      color: #9C9C9C;
+}
+
+.bar-icon {
+      color: #9C9C9C;
+}
+
+
+
+.profile {
+      width: 15rem;
+      height: 15rem;
+}
+
+@media (max-width: 575.98px) {
+      .profile {
+            padding-bottom: 20px;
+      }
+
+      .info {
+            padding-top: 20px;
+            padding-bottom: 20px;
+      }
+
+      .details {
+            padding: 0 20px;
+      }
+}
+
+
+.work {
+      color: #FFFFFF;
+}
+
+.start {
+      background-color: #62BA1B;
+      box-shadow: 0 0 7px 1px green;
+
+}
+
+.btn-container {
+      margin-left: 200px;
+}
+
+.workbtn {
+      background-color: #080808;
+      color: #1B1B1B;
+      padding: 7px;
+      border: 1px solid #1B1B1B;
+
+}
+
+.about {
+      font-size: 1rem;
+}
+
+.case-studies .main-title .description,
+.recent-work-title .description {
+      max-width: 500px;
+}
+
+.work-img img {
+      max-width: 400px;
+      max-height: 200px;
+}
+
+.work-description {
+      max-width: 400px;
+}
+
+@media (min-width: 768px) {
+      .main-works {
+            gap: 12rem;
+
+      }
+}
+
+@media (min-width:768px) {
+      .details .about-details {
+            padding-top: 130px;
+      }
+
+}
+
+@media (max-width: 768px) {
+      .main-works {
+            gap: 5rem;
+            margin-top: 50px;
+            justify-content: center;
+            align-items: center;
+      }
+
+        .details .about-details {
+            padding-top: 85px;
+      }
+
+
+}
+
+.feedback {
+      max-width: 300px;
+}
+
+.Testimonials .badge-section {
+      position: absolute;
+      top: -15px;
+      left: 15px;
+
+}
+
+.card {
+      width: fit-content;
+}
+
+input::placeholder {
+      font-size: 14px;
+      color: #aaa;
+}
+
+input:focus,
+textarea:focus,
+button:focus {
+      outline: none !important;
+      border: none !important;
+}
+
+.custom-width {
+      width: 260px;
+}
+
+.sumbit {
+      background-color: #62BA1B;
+      width: 260px;
+
+}
